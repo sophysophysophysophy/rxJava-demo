@@ -33,5 +33,9 @@ build/
 ### MVN ###
 .mvn/
 
+### GRADLE ###
+.gradle/
+
+
 ### mac OS ###
 .DS_Store
