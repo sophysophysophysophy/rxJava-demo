@@ -9,6 +9,5 @@ public class HelloRxJava {
         observable.subscribe(System.out::println);
 
         observable.blockingSingle();
-        observable.blockingSubscribe();
     }
 }
