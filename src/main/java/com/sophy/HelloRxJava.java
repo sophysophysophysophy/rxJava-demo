@@ -6,7 +6,7 @@ import io.reactivex.Observable;
 public class HelloRxJava {
     public static void main(String[] args) { //psvm : live template
         Observable<String> observable = Observable.just("Hello", "RxJava");
-        observable.subscribe(data -> System.out.println(data));
+        observable.subscribe(System.out::println);
 
     }
 }
