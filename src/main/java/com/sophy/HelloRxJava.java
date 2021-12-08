@@ -8,5 +8,6 @@ public class HelloRxJava {
         Observable<String> observable = Observable.just("Hello", "RxJava");
         observable.subscribe(System.out::println);
 
+        observable.blockingSingle();
     }
 }
