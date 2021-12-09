@@ -12,5 +12,7 @@ public class HelloRxJava {
         observable.blockingSingle();
         observable.blockingSubscribe();
 
+        observable.blockingSingle();
+
     }
 }
